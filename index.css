@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
   
+p {
+    color: #676767;
+    font-size: .85em;
+}
 .header {
     color: #404040;
     margin-top: 1.5em;
