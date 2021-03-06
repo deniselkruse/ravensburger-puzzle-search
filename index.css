@@ -1,31 +1,34 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: #c9dfe3;
+    background-color: #e6fffa;
   }
 
   a {
     text-decoration: none;
   }
   
+h1 {
+    color: #4d4d4d;
+}
+
+h2 {
+    color: #404040;
+}
+
   /* unvisited link */
   a:link {
-    color: red;
+    color: #66d4ff;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: #00b339;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
+    font-size: 125%;
   }
 
   * {
