@@ -8,47 +8,35 @@ body {
     text-decoration: none;
   }
   
-h1 {
+.header {
     color: #4d4d4d;
+    margin-top: 1.5em;
 }
 
-h2 {
+h4 {
     color: #404040;
 }
 
-  /* unvisited link */
-  a:link {
+.container {
+    margin-left: .25em;
+    margin-right: .25em;
+}
+
+.row {
+    margin-bottom: 1.5em;
+}
+
+/* unvisited link */
+a:link {
     color: #66d4ff;
-  }
-  
-  /* visited link */
-  a:visited {
+}
+
+/* visited link */
+a:visited {
     color: #00b339;
-  }
+}
   
-  /* mouse over link */
-  a:hover {
+/* mouse over link */
+a:hover {
     font-size: 125%;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 50%;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .row {
-      margin-top: -2.5em;
-      margin-left: 15em;
-      margin-right: 15em;
-  }
-
+}
