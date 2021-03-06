@@ -4,9 +4,9 @@ body {
     background-color: #e6fffa;
   }
 
-  a {
+a {
     text-decoration: none;
-  }
+}
   
 .header {
     color: #404040;
@@ -18,12 +18,13 @@ h4 {
 }
 
 .container {
-    margin-left: .25em;
-    margin-right: .25em;
+    text-align: center;
 }
 
 .row {
+    margin-top: .25em;
     margin-bottom: 1.5em;
+    justify-content: center;
 }
 
 /* unvisited link */
