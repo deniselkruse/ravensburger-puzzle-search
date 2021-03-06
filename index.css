@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #c9dfe3;
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -26,4 +26,24 @@ body {
   /* selected link */
   a:active {
     color: blue;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+      margin-top: -40px;
   }
