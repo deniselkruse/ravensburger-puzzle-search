@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #c9dfe3;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
